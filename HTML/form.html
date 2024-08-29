@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TECHOPEDIA Events Registration</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>TECHOPEDIA EVENTS REGISTRATION</h2>
+        <form id="registrationForm">
+            <!-- Your form fields here -->
+            <label for="teamName">Team Name:</label>
+            <input type="text" id="teamName" name="teamName" required><br><br>
+            <h4>Participant 1:</h4>
+            <label for="name1">Name:</label>
+            <input type="text" id="name1" name="name1" required><br>
+            <label for="phone1">Phone Number:</label>
+            <input type="tel" id="phone1" name="phone1" pattern="[0-9]{10}" required><br>
+            <label for="gstEmail1">GST Email ID:</label>
+            <input type="email" id="gstEmail1" name="gstEmail1" required style="height: 40px; font-size: 16px;"><br><br>
+            <h4>Participant 2:</h4>
+            <label for="name2">Name:</label>
+            <input type="text" id="name2" name="name2" required><br>
+            <label for="phone2">Phone Number:</label>
+            <input type="tel" id="phone2" name="phone2" pattern="[0-9]{10}" required><br>
+            <label for="gstEmail2">GST Email ID:</label>
+            <input type="email" id="gstEmail2" name="gstEmail2" required style="height: 40px; font-size: 16px;"><br><br>
+            <h4>Participant 3:</h4>
+            <label for="name3">Name:</label>
+            <input type="text" id="name3" name="name3" required><br>
+            <label for="phone3">Phone Number:</label>
+            <input type="tel" id="phone3" name="phone3" pattern="[0-9]{10}" required><br>
+            <label for="gstEmail3">GST Email ID:</label>
+            <input type="email" id="gstEmail3" name="gstEmail3" required style="height: 40px; font-size: 16px;"><br><br>
+            <h4>Timing Slots:</h4>
+            <label for="timingSlot">Select a timing slot:</label>
+            <select id="timingSlot" name="timingSlot" required>
+                <option value="Saturday 3:30-5:30">Saturday 3:30-5:30</option>
+                <option value="Friday 3:30-5:30">Friday 3:30-5:30</option>
+            </select><br><br>
+            <button type="submit">Register</button>
+        </form>
+        <div id="confirmationMessage"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

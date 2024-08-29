@@ -1,0 +1,110 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #4B0082, #7A288A);
+    background-image: repeating-linear-gradient(45deg, #fff, #fff 2px, transparent 2px, transparent 4px);
+    background-size: 4px 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+}
+
+.container {
+    background: linear-gradient(135deg, #4B0082, #7A288A);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 90%;
+    max-width: 400px;
+    overflow-y: auto;
+    max-height: 90vh;
+    position: relative;
+    z-index: 1;
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    text-align: center;
+    color: #FF69B4;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+h4 {
+    font-size: 18px;
+    margin-top: 15px;
+    text-align: left;
+    color: #FFC0CB;
+}
+
+label {
+    font-weight: bold;
+    margin-top: 10px;
+    display: block;
+    text-align: left;
+    color: #ADD8E6;
+}
+
+input[type="text"], input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 14px;
+    color: #000;
+}
+
+input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 14px;
+    color: #000;
+    height: 40px;
+    font-size: 16px;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 14px;
+    color: #000;
+}
+
+button {
+    width: 100%;
+    background-color: #4CAF50;
+    padding: 12px;
+    margin: 15px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    color: #ffffff;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#confirmationMessage {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    color: #ADD8E6;
+    font-family: 'Lato', sans-serif;
+}
